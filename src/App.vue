@@ -1,15 +1,16 @@
 <template>
 <div id="app">
-  <div v-b-tooltip.hover.left="'I want to become super front-end programmer><'">This is Mars testing Bootstrap-vue</div>
+  <MainPage />
 </div>
 </template>
-
 <script>
+import MainPage from './components/MainPage.vue'
 export default {
   name: 'App',
-  components: {}
+  components: {
+    MainPage
+  }
 }
 </script>
-
 <style>
 </style>
